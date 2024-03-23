@@ -1,35 +1,56 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { Route, Routes } from "react-router-dom";
+import { useState } from "react";
+import { Spinner } from "react-bootstrap";
+import SideVertical from "./partials/SideVertical";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Skills from "./components/Skills";
+import About from "./components/About";
+import NavTop from "./partials/NavTop";
+import NavBot from "./partials/NavBot";
+import Footer from "./partials/Footer";
+import Home from "./components/Home";
+import "./index";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [preload, setPreload] = useState(true);
+
+  setTimeout(function () {
+    setPreload(false);
+  }, 2000);
+
+  if (preload) {
+    return (
+      <>
+        <div className="preload">
+          <h1>
+            <strong>Kat</strong>
+            <i>Lomidze</i>
+          </h1>
+          <p>─────</p>
+          <Spinner animation="grow" />
+        </div>
+      </>
+    );
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
+      <NavTop />
+      <div className="d-flex">
+        <SideVertical />
+        <Routes>
+          <Route path="/" element={<Home />}></Route>
+          <Route path="/about" element={<About />}></Route>
+          <Route path="/skills" element={<Skills />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
+          <Route path="/contact" element={<Contact />}></Route>
+        </Routes>
       </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Footer />
+      <NavBot />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
