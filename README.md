@@ -7,4 +7,8 @@ This is my Profile page. Through the use of React I have included all the necess
 ## Repository
 https://github.com/evan17812/React-Profile-Page
 
+## WebPage
+https://main--react-profile-portfolio-evan-chang.netlify.app/
+
 ## Screenshot
+![alt text](src/assets/img/Image.png)
