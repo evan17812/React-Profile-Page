@@ -1,8 +1,6 @@
 import {
     AiOutlineMail,
     AiFillGithub,
-    AiFillLinkedin,
-    AiFillInstagram,
     AiOutlineArrowRight,
   } from "react-icons/ai";
   import { CopyToClipboard } from "react-copy-to-clipboard";

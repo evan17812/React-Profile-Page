@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8d70d89.css",
+    "main.js": "/static/js/main.bda396fa.js",
+    "static/media/devicon.svg?iehcku": "/static/media/devicon.de33ff67547800466a48.svg",
+    "static/media/Concert_compass.png": "/static/media/Concert_compass.ed829e02c777c071dea8.png",
+    "static/media/devicon.woff?iehcku": "/static/media/devicon.25bdb9cbf8e5f9b4dde9.woff",
+    "static/media/devicon.ttf?iehcku": "/static/media/devicon.161b6f3376d6ce5c517d.ttf",
+    "static/media/Note_Taker.png": "/static/media/Note_Taker.b8e1f978c4da5873b7d6.png",
+    "static/media/Recipe_book.png": "/static/media/Recipe_book.57ab8cbf17029b4f53bd.png",
+    "static/media/Study_Guide.png": "/static/media/Study_Guide.4d45fec1d52028367cf0.png",
+    "static/media/Work_Schedule_planner.png": "/static/media/Work_Schedule_planner.bfa995693632f8cd3d40.png",
+    "static/media/Weather_application.png": "/static/media/Weather_application.103a3bd4cdb1680173c0.png",
+    "static/media/Web_rock_paper_scissors.png": "/static/media/Web_rock_paper_scissors.48218cf2aa9d922022de.png",
+    "static/media/profile.png": "/static/media/profile.c3f945216dc12c9498dc.png",
+    "static/media/profilehover.png": "/static/media/profilehover.c3f945216dc12c9498dc.png",
+    "static/media/Password_generater.png": "/static/media/Password_generater.bc5ff58520f04baa67ff.png",
+    "static/media/Quizzlet.png": "/static/media/Quizzlet.d0f518e94389f930db72.png",
+    "index.html": "/index.html",
+    "main.d8d70d89.css.map": "/static/css/main.d8d70d89.css.map",
+    "main.bda396fa.js.map": "/static/js/main.bda396fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8d70d89.css",
+    "static/js/main.bda396fa.js"
+  ]
+}

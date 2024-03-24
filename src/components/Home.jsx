@@ -35,7 +35,7 @@ function Home() {
             <span className="name-hover">Chang</span>
           </h2>
           <NavLink to="/contact" className="btn-download text-center">
-            Let's Connect
+            Let&apos;s Connect
           </NavLink>
         </div>
         <div className="home-right animate__animated animate__fadeIn animate__slower">

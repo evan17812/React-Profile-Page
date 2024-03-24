@@ -114,7 +114,7 @@ function Skills() {
                 className="devicon-swift-plain colored"
                 title="Swift"
               ></i>
-              <i class="devicon-xcode-plain colored"
+              <i className="devicon-xcode-plain colored"
                 title="Xcode"
               ></i>
             </div>
