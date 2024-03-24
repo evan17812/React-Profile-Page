@@ -1,4 +1,5 @@
-import { AiFillGithub, AiFillLinkedin, AiFillInstagram } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin, AiFillFilePdf } from "react-icons/ai";
+import React from "react";
 import "./CSS/Footer.css";
 
 function Footer() {
@@ -34,11 +35,9 @@ function Footer() {
             &nbsp;&nbsp;Linkedin
           </a>
           <a
-            href="../assets/Resume.PDF" download
-            target="_blank"
-            rel="noreferrer"
+            href="../assets/Resume.PDF" download = "Resume.PDF"
           >
-            <AiFillLinkedin className="foot-icon" />
+            <AiFillFilePdf className="foot-icon" />
             &nbsp;&nbsp;Resume
           </a>
         </div>
@@ -46,5 +45,6 @@ function Footer() {
     </>
   );
 }
+
 
 export default Footer;
