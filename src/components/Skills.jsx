@@ -8,7 +8,7 @@ function Skills() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>KAT - Skills</title>
+          <title>Evan - Skills</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="skills-wrapper">
@@ -67,8 +67,55 @@ function Skills() {
           <div className="row my-4 animate__animated animate__flipInX animate_slow">
             <div className="col">
               <i
-                class="devicon-nodejs-plain-wordmark colored"
+                className="devicon-nodejs-plain-wordmark colored"
                 title="Node.js"
+              ></i>
+            </div>
+          </div>
+          <div className="row my-4 animate__animated animate__flipInX animate_slow">
+            <div className="col">
+            <i
+                className="devicon-sequelize-plain colored"
+                title="SQL Server"
+              ></i>
+              <i
+                className="devicon-microsoftsqlserver-plain colored"
+                title="Microsoft SQL server"
+              ></i>
+            </div>
+          </div>
+          <div className="row my-4 animate__animated animate__flipInX animate_slow">
+            <div className="col">
+              <i
+                className="devicon-github-original colored"
+                title="Github"
+              ></i>
+              <i
+                className="devicon-python-plain colored"
+                title="Python"
+              ></i>
+              <i
+                className="devicon-java-plain colored"
+                title="Java"
+              ></i>
+            </div>
+          </div>
+          <div className="row my-4 animate__animated animate__flipInX animate_slow">
+            <div className="col">
+              <i
+                className="devicon-visualstudio-plain colored"
+                title="Visual Studio"
+              ></i>
+              <i
+                className="devicon-insomnia-plain colored"
+                title="Insomnia"
+              ></i>
+              <i
+                className="devicon-swift-plain colored"
+                title="Swift"
+              ></i>
+              <i class="devicon-xcode-plain colored"
+                title="Xcode"
               ></i>
             </div>
           </div>

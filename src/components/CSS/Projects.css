@@ -99,7 +99,7 @@
   }
   
   span#tech-stack {
-    background-color: var(--first-color);
+    background-color: var(--five-color);
     font-family: "Manrope", sans-serif;
     color: var(--fourth-color);
     font-size: 14px;

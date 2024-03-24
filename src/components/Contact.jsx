@@ -28,7 +28,7 @@ import {
       <>
         <HelmetProvider>
           <Helmet>
-            <title>KAT - Contact</title>
+            <title>Evan - Contact</title>
           </Helmet>
         </HelmetProvider>
         <Container fluid className="contact-wrapper">
@@ -47,8 +47,8 @@ import {
                       <AiOutlineMail />
                       &nbsp;&nbsp;Email
                     </h3>
-                    <p>Katelomidze2003@gmail.com</p>
-                    <CopyToClipboard text="Katelomidze2003@gmail.com">
+                    <p>evanchang17812@hotmail.com</p>
+                    <CopyToClipboard text="evanchang17812@hotmail.com">
                       <button className="btn-copy" onClick={actionCopy}>
                         {alreadyCopy}&nbsp;&nbsp;
                         <FiCopy />
@@ -57,14 +57,14 @@ import {
                   </div>
                 </div>
                 <div className="col contact-col animate__animated animate__slideInRight">
-                  <div className="linkedin-wrapper">
+                <div className="github-wrapper">
                     <h3>
-                      <AiFillLinkedin />
-                      &nbsp;&nbsp;Linkedin
+                      <AiFillGithub />
+                      &nbsp;&nbsp;GitHub
                     </h3>
-                    <p>Kat Lomidze</p>
+                    <p>evan17812</p>
                     <a
-                      href="https://www.linkedin.com/in/keti-lomidze-25819a267/"
+                      href="https://github.com/evan17812"
                       target="_blank"
                       rel="noreferrer"
                       className="btn-direct"
@@ -78,11 +78,11 @@ import {
                   <div className="github-wrapper">
                     <h3>
                       <AiFillGithub />
-                      &nbsp;&nbsp;GitHub
+                      &nbsp;&nbsp;iOS Github Projects
                     </h3>
-                    <p>Bladeasf</p>
+                    <p>ok17812</p>
                     <a
-                      href="https://github.com/bladeasf"
+                      href="https://github.com/ok17812"
                       target="_blank"
                       rel="noreferrer"
                       className="btn-direct"
@@ -93,21 +93,18 @@ import {
                   </div>
                 </div>
                 <div className="col contact-col animate__animated animate__slideInRight">
-                  <div className="instagram-wrapper">
+                <div className="phone">
                     <h3>
-                      <AiFillInstagram />
-                      &nbsp;&nbsp;Instagram
+                      <AiOutlineMail />
+                      &nbsp;&nbsp;Phone
                     </h3>
-                    <p>Bladeasf</p>
-                    <a
-                      href="https://instagram.com"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="btn-direct"
-                    >
-                      Visit&nbsp;&nbsp;
-                      <AiOutlineArrowRight />
-                    </a>
+                    <p>917-826-0338</p>
+                    <CopyToClipboard text="9178260338">
+                      <button className="btn-copy" onClick={actionCopy}>
+                        {alreadyCopy}&nbsp;&nbsp;
+                        <FiCopy />
+                      </button>
+                    </CopyToClipboard>
                   </div>
                 </div>
               </div>

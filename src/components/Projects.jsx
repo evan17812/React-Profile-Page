@@ -9,7 +9,7 @@ function Projects() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>KAT - Project</title>
+          <title>Evan - Project</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="projects-container">

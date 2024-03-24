@@ -61,7 +61,7 @@ img.home-image {
 }
 
 .btn-download:hover {
-    color: var(--first-color);
+    color: var(--seventh-color);
     background-color: var(--third-color);
     box-shadow: 0px 0px transparent;
 }

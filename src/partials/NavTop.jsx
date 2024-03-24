@@ -54,7 +54,7 @@ function NavTop() {
         <Container fluid className="px-4">
           <Navbar.Brand className="navtop-brand">
             <Link to="/">
-              Kat<i id="normal"> Lomidze</i>.
+              Evan<i id="normal"> Chang</i>
             </Link>
           </Navbar.Brand>
           <button className="toogle-menu" onClick={toogleOpen}>

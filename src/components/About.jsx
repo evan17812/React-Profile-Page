@@ -22,7 +22,7 @@ function About() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>KAT - About</title>
+          <title>Evan - About</title>
         </Helmet>
       </HelmetProvider>
       <FsLightbox
@@ -39,10 +39,7 @@ function About() {
         </div>
         <div className="about-right animate__animated animate__fadeIn animate__slower py-3">
           <p>
-          I am a Full-Stack Developer student, currently studying at a Columbia University bootcamp.
-          As a full stack developer student, my journey started with a love for technology and problem-solving. 
-          From coding sleek user interfaces to diving into databases and servers, I'm driven by a passion for mastering every layer of web development.
-          With each project, I'm fueled by the excitement of learning and the drive to create impactful solutions in the tech world.
+           Multitalented Software Developer with experience in web applications as well as iOS mobile applications. Demonstrated excellent skills in HTML, JavaScript and Python. A quick learner looking to work with an environment friendly team.
           </p>
 
           <h4>Preview of my work</h4>

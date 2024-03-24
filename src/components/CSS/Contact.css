@@ -42,7 +42,7 @@
 }
 
 .email-wrapper, .linkedin-wrapper,
-.github-wrapper, .instagram-wrapper {
+.github-wrapper, .phone {
     width: 350px;
     margin: 8px 0 8px 0;
     padding: 18px;
@@ -51,13 +51,13 @@
 }
 
 .email-wrapper h3, .linkedin-wrapper h3,
-.github-wrapper h3, .instagram-wrapper h3 {
+.github-wrapper h3, .phone h3 {
     font-family: 'Archivo', sans-serif;
     cursor: default;
 }
 
 .email-wrapper p, .linkedin-wrapper p,
-.github-wrapper p, .instagram-wrapper p {
+.github-wrapper p, .phone p {
     font-family: 'Manrope', sans-serif;
     font-style: italic;
     margin: 0;
@@ -149,17 +149,17 @@ button.btn-copy:hover {
     }
 
     .email-wrapper, .linkedin-wrapper,
-    .github-wrapper, .instagram-wrapper {
+    .github-wrapper, .phone {
         width: 300px;
     }
 
     .email-wrapper h3, .linkedin-wrapper h3,
-    .github-wrapper h3, .instagram-wrapper h3 {
+    .github-wrapper h3, .phone h3 {
         font-size: 20px;
     }
 
     .email-wrapper p, .linkedin-wrapper p,
-    .github-wrapper p, .instagram-wrapper p {
+    .github-wrapper p, .phone p {
         font-size: 14px;
     }
 

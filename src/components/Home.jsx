@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
-import colorProfile from "../assets/img/Kat-Lomidze.jpg";
-import hoverProfile from "../assets/img/profilehover.jpg";
+import colorProfile from "../assets/img/profile.png";
+import hoverProfile from "../assets/img/profilehover.png";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 
 import "./CSS/Home.css";
@@ -21,18 +21,18 @@ function Home() {
     <>
       <HelmetProvider>
         <Helmet>
-          <title>KAT - Home</title>
+          <title>Profile Page</title>
         </Helmet>
       </HelmetProvider>
       <Container fluid className="home-wrapper">
         <div className="home-left animate__animated animate__fadeInLeft">
           <h3>
-            Hi there, my name is
+            Hi, welcome to my Portfolio Profile Page
           </h3>
           <h2>
-            <span className="name-hover">Kat</span>
+            <span className="name-hover">Evan</span>
             <br />
-            <span className="name-hover">Lomidze</span>
+            <span className="name-hover">Chang</span>
           </h2>
           <NavLink to="/contact" className="btn-download text-center">
             Let's Connect
