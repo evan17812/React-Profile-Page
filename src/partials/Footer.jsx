@@ -33,6 +33,14 @@ function Footer() {
             <AiFillLinkedin className="foot-icon" />
             &nbsp;&nbsp;Linkedin
           </a>
+          <a
+            href="../assets/Resume.PDF" download
+            target="_blank"
+            rel="noreferrer"
+          >
+            <AiFillLinkedin className="foot-icon" />
+            &nbsp;&nbsp;Resume
+          </a>
         </div>
       </footer>
     </>
